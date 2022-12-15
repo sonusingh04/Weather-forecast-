@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Weather App</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div id="bar" align="center">
+        <div id="time">time</div>
+        <div id="date">date</div>
+        <div id="day">day</div>
+
+    </div>
+
+    <form id="search-form">
+        <input type="search" placeholder="Enter city Name" id="search-input" required autocomplete="off" />
+        <br>
+        <button id="search-button" >Search</button>
+    </form>
+
+    <main id="app-container">
+        <div id="location">
+            <p>Loading...</p>
+        </div>
+        <div id="climate">
+            <p>Loading...</p>
+        </div>
+        <div id="temp">
+            <img id="temp-icon" src="https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-8.png"
+                alt="weather icon">
+            <p><span id="temp-value">Loading...</span> <span id="temp-unit">&#176c</span></p>
+        </div>
+        <div id="mainhumidity">humidity : <span id="humidity">Loading...</span> %</div>
+        <div id="mainwind-speed">Wind speed : <span id="wind-speed">Loading...</span> KM</div>
+
+    </main>
+
+
+    <!-- <div id="day1">
+        <div id="dayy">....</div>
+        <img class="day-icon" src="https://www.freeiconspng.com/thumbs/weather-icon-png/weather-icon-png-8.png">
+
+        <table id="tb" align="center">
+            <tr align="center">
+                <td >
+                    <div id="min-temp">min:</div>
+                </td>
+                <td >
+                    <div id="max-temp">max:</div>
+                </td>
+            </tr>
+        </table>
+
+    </div> -->
+
+
+    <div id="iconsContainer">
+
+        <div class="icons">
+            <p class="weather" id="day1">Loading...</p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+            <p class="minValues" id="day1Min">Loading...</p>
+            <p class="maxValues" id="day1Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day2">Loading...</p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+            <p class="minValues" id="day2Min">Loading...</p>
+            <p class="maxValues" id="day2Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day3">Loading...</p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+            <p class="minValues" id="day3Min">Loading...</p>
+            <p class="maxValues" id="day3Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day4">Loading...</p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img4"></div>
+            <p class="minValues" id="day4Min">Loading...</p>
+            <p class="maxValues" id="day4Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day5">Loading...</p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img5"></div>
+            <p class="minValues" id="day5Min">Loading...</p>
+            <p class="maxValues" id="day5Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day6">Loading...</p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img6"></div>
+            <p class="minValues" id="day6Min">Loading...</p>
+            <p class="maxValues" id="day6Max">Loading...</p>
+        </div>
+        <div class="icons">
+            <p class="weather" id="day7">Loading...</p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img7"></div>
+            <p class="minValues" id="day7Min">Loading...</p>
+            <p class="maxValues" id="day7Max">Loading...</p>
+        </div>
+
+    </div>
+
+
+    <script src="/js.js"></script>
+
+</body>
+
+</html>

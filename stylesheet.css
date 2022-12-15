@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#humidity{
+    text-align: center;
+    color: rgb(78, 206, 241);
+    font-family:cursive;
+    font-size: 15px;
+}
+
+#mainhumidity{
+    text-align: center;
+    color: rgb(78, 206, 241);
+    font-family:cursive;
+    font-size: 15px;
+}
+
+#wind-speed{
+    text-align: center;
+    color: rgb(78, 206, 241);
+    font-family:cursive;
+    font-size: 15px;
+}
+
+#mainwind-speed{
+    text-align: center;
+    color: rgb(78, 206, 241);
+    font-family:cursive;
+    font-size: 15px;
+}
+
+#bar{
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(224, 238, 94);
+    border-radius: 10px;
+    width: fit-content;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 10px 10px 20px 10px rgba(22, 221, 49, 0.2);
+    font-family:cursive;
+
+}
+
+body {
+    
+    background-image: url("background copy.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:top;
+    backdrop-filter:initial;
+    background-color: rgb(218, 249, 249);
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#temp {
+    text-align: center;
+    color: rgb(252, 11, 11);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+
+}
+
+#temp #temp-unit {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+    color: rgb(252, 11, 11);
+}
+
+#climate {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: rgb(250, 159, 32);
+    text-align: center;
+}
+
+#location {
+    font-family:fantasy;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#temp-icon {
+    text-align: center;
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgb(48, 50, 47);
+    border-radius: 20px;
+    width: 360px;
+    height: 390px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px 10px rgba(15, 15, 15, 0.2);
+}
+
+#search-button {
+    color: rgb(244, 252, 31);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(8, 8, 8);
+    border-radius: 4px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid #263859;
+    display: inline-block;
+    transition: all 0.4 ease 0s;
+}
+
+#search-button:hover {
+    color: rgb(247, 0, 255);
+    background: #b40303;
+    border-color: #000000;
+    transition: all 0.4s ease 0s;
+}
+
+#search-input {
+    width: 260px;
+    overflow: hidden;
+    font-size: 15px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 3px solid rgb(198, 22, 22);
+    color: rgb(17, 2, 2);
+    outline: none;
+    background: none;
+
+}
+
+input {
+    border: 0px solid;
+}
+
+/* 714f5ba6756b95e6fb9712580cb40223 */
+
+
+/* #day1{
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: rgb(226, 232, 207);
+    border-radius: 10px;
+    width: fit-content;
+    height: 80%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 10px 10px 20px 10px rgba(22, 221, 49, 0.2);
+    font-family:cursive;
+
+} */
+
+/* .day-icon{
+    text-align: center;
+    margin: 1rem;
+    width: 20%;
+    height: auto;
+} */
+
+
+/* table,tr,td{
+    text-align: center;
+    margin-left:20px;
+    padding-left:20px;
+    margin-bottom: 10px;
+    
+} */
+
+
+#iconsContainer{
+    margin-top: 20px;
+    height: 260px;
+    width: 100%;    
+    
+}
+
+.icons{
+    display: inline-bock;
+    float:left;
+    height: 180px;
+    width: 190px;
+    margin: 10px;
+    margin-top: 40px;
+    
+    border: 2px solid rgb(48, 47, 47);
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.image{
+    align-items: center;
+    height: 100px;
+    width:100%;
+}
+
+.imgClass{
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.weather{
+    margin: 5px;
+    background-color: rgb(248, 236, 6);
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.minValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+.maxValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
